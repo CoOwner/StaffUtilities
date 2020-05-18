@@ -1,0 +1,35 @@
+REDIS:
+  HOST: "127.0.0.1"
+  PORT: 6379
+  PASSWORD_NEEDED: false
+  PASSWORD: "ganggangbangbang9321l0l0ltroll....."
+
+SERVER:
+  NAME: "Unknown"
+  
+LANGUAGE:
+  STAFFCHAT:
+    PERMISSION: "staff.staff"
+    MESSAGE: "&9[Staff] &7[%SERVER%] &b%PLAYER%: &7%MESSAGE%"
+    TOGGLE:
+      ENABLED: "&9[Staff] &7You have &benabled&7 staff chat."
+      DISABLED: "&9[Staff] &7You have &cdisabled&7 staff chat."
+  ADMINCHAT:
+    PERMISSION: "staff.admin"
+    MESSAGE: "&4[Admin] &7[%SERVER%] &c%PLAYER%: &7%MESSAGE%"
+    TOGGLE:
+      ENABLED: "&4[Admin] &7You have &cenabled&7 staff chat."
+      DISABLED: "&4[Admin] &7You have &cdisabled&7 staff chat."
+  REQUEST:
+    PERMISSION: "staff.request"
+    MESSAGE: "&9[Request] &7[%SERVER%] &b%PLAYER%&7 requested assistance\n&f   &9Reason: &7%MESSAGE%"
+  REPORT:
+    PERMISSION: "staff.report"
+    MESSAGE: "&9[Report] &7[%SERVER%] &b%TARGET%&7 reported by &b%PLAYER%\n&f   &9Reason: &7%MESSAGE%"
+  JOIN:
+    MESSAGE: "&9[Staff] &b%PLAYER% joined the server."
+    PERMISSION: "staff.staff"
+  QUIT:
+    MESSAGE: "&9[Staff] &b%PLAYER% quit the server."
+    PERMISSION: "staff.staff"
+  
